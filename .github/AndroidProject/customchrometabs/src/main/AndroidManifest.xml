@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onedevapp.customchrometabs">
+
+    <application>
+        <activity
+            android:name="com.onedevapp.customchrometabs.WebViewActivity"/>
+        <activity android:name="com.onedevapp.customchrometabs.CustomHeadlessActivity" android:theme="@style/Theme.Transparent">
+        </activity>
+        <receiver android:name="com.onedevapp.customchrometabs.ActionBroadcastReceiver" />
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name=
+                "android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+</manifest>

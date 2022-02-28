@@ -1,0 +1,3 @@
+include ':customchrometabs'
+include ':demo'
+rootProject.name = "CustomChromeTabs"
