@@ -204,6 +204,7 @@ public class CustomHeadlessActivity  extends FragmentActivity implements ActionI
         super.onResume();
         if (mCustomTabsOpened) {
             mCustomTabsOpened = false;
+            finish();
         }
     }
 }
