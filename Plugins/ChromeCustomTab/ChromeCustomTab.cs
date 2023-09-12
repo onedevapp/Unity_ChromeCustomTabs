@@ -37,11 +37,6 @@ namespace OneDevApp.CustomTabPlugin
                             mAuthManager.Call<AndroidJavaObject>("ToggleUrlBarHiding", showUrlBar);
                             mAuthManager.Call("openCustomTab");
                         }
-                        /*using (var androidPlugin = new AndroidJavaObject("com.onedevapp.customchrometabs.ChromeCustomTab", currentActivity, value))
-                        {
-                            //AndroidJavaObject aObject = androidPlugin.Call<AndroidJavaObject>("ChromeCustomTab", currentActivity, value);
-                            androidPlugin.Call("show", "#FF0000");
-                        }*/
                     }
                 }
             }

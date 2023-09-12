@@ -4,8 +4,8 @@
 
     <application>
         <activity
-            android:name="com.onedevapp.customchrometabs.WebViewActivity"/>
-        <activity android:name="com.onedevapp.customchrometabs.CustomHeadlessActivity" android:theme="@style/Theme.Transparent">
+            android:name="com.onedevapp.customchrometabs.WebViewActivity" android:exported="true"/>
+        <activity android:name="com.onedevapp.customchrometabs.CustomHeadlessActivity" android:theme="@style/Theme.Transparent" android:exported="true">
         </activity>
         <receiver android:name="com.onedevapp.customchrometabs.ActionBroadcastReceiver" />
     </application>

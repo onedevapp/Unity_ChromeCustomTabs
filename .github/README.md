@@ -9,9 +9,9 @@ There are 4 ways to install this plugin:
 2. clone/download this repository and move the Plugins folder to your Unity project's Assets folder
 3. via Package Manager (**Add package from git url**):
 
-    - `https://github.com/onedevapp/Unity_ChromeCustomTab.git`
+    - `https://github.com/onedevapp/Unity_ChromeCustomTabs.git`
 4. via Package Manager (add the following line to **Packages/manifest.json**):
-    - `"com.onedevapp.chromecustomtab": "https://github.com/onedevapp/Unity_ChromeCustomTab.git",`
+    - `"com.onedevapp.chromecustomtab": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git",`
 
 <br>
 
@@ -56,20 +56,20 @@ ChromeCustomTab.OpenCustomTab(string urlToLaunch, string colorCode, string secCo
 Register these activities, receivers and queires in the manifest only when ur choosing Custom Main Manifest in Unity
 
 ```XML
-<application>
-	<activity
-		android:name="com.onedevapp.customchrometabs.WebViewActivity"/>
-	<activity android:name="com.onedevapp.customchrometabs.CustomHeadlessActivity" android:theme="@style/Theme.Transparent">
-	</activity>
-	<receiver android:name="com.onedevapp.customchrometabs.ActionBroadcastReceiver" />
-</application>
+	<application>
+		<activity
+			android:name="com.onedevapp.customchrometabs.WebViewActivity" android:exported="true"/>
+		<activity android:name="com.onedevapp.customchrometabs.CustomHeadlessActivity" android:theme="@style/Theme.Transparent" android:exported="true">
+		</activity>
+		<receiver android:name="com.onedevapp.customchrometabs.ActionBroadcastReceiver" />
+	</application>
 
-<queries>
-	<intent>
-		<action android:name=
-			"android.support.customtabs.action.CustomTabsService" />
-	</intent>
-</queries>
+	<queries>
+		<intent>
+			<action android:name=
+				"android.support.customtabs.action.CustomTabsService" />
+		</intent>
+	</queries>
 ```
 
 

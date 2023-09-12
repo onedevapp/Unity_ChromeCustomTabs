@@ -1,16 +1,22 @@
 {
   "name": "com.onedevapp.chromecustomtab",
   "displayName": "Native Chrome CustomTab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "documentationUrl": "https://github.com/onedevapp/Unity_ChromeCustomTabs/blob/main/.github/README.md",
   "changelogUrl": "",
   "licensesUrl": "https://github.com/onedevapp/Unity_ChromeCustomTabs/blob/main/LICENSE",
-  "description": "Unity plugin helps you in include Android Chrome custom tabs feature, Chrome custom tabs give apps more control over their web experience, and make transitions between native and web content more seamless without having to resort to a WebView.
-
-Chrome custom tabs allow an app to customize how Chrome looks and feels. An app can change things like:
-
-Toolbar color
-Enter and exit animations
-Add custom actions to the Chrome toolbar and overflow menu
-Chrome custom tabs also allow the developer to pre-start Chrome and pre-fetch content for faster loading."
+  "author": {
+    "name": "OneDevApp",
+    "email": "onedevapp@gmail.com",
+    "url": "https://github.com/onedevapp/Unity_ChromeCustomTabs"
+  },
+  "samples": [
+    {
+        "displayName": "Chrome CustomTab Demo",
+        "description": "Contains sample for Chrome CustomTab",
+        "path": "Samples~/Unity_ChromeCustomTab_Demo.unitypackage"
+    }
+],
+  "description": "Unity plugin helps you in include Android Chrome custom tabs feature, Chrome custom tabs give apps more control over their web experience, and make transitions between native and web content more seamless without having to resort to a WebView. Chrome custom tabs allow an app to customize how Chrome looks and feels. An app can change things like: \n\ni.\tToolbar color \nii.\tEnter and exit animations \niii.\tAdd custom actions to the Chrome toolbar and overflow menu \n\nChrome custom tabs also allow the developer to pre-start Chrome and pre-fetch content for faster loading."
+  
 }
