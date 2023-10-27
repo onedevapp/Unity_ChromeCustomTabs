@@ -4,7 +4,7 @@ plugins {
 ext {
     PUBLISH_GROUP_ID = 'com.onedevapp'
     PUBLISH_ARTIFACT_ID = 'ChromeCustomTab'
-    PUBLISH_VERSION = '1.1'
+    PUBLISH_VERSION = '1.2'
 }
 
 android {
@@ -15,8 +15,8 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
 
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
 
         libraryVariants.all { variant ->
             def variantName = variant.name.capitalize()
@@ -53,10 +53,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    namespace 'com.onedevapp.customchrometabs'
 }
 
 dependencies {
 
-    compileOnly 'androidx.fragment:fragment:1.6.1'
-    compileOnly 'androidx.browser:browser:1.6.0'
+    compileOnly 'androidx.fragment:fragment:1.5.7'
+    compileOnly 'androidx.browser:browser:1.5.0'
 }

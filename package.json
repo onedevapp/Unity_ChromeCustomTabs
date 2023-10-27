@@ -1,9 +1,9 @@
 {
   "name": "com.onedevapp.chromecustomtab",
   "displayName": "Native Chrome CustomTab",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "documentationUrl": "https://github.com/onedevapp/Unity_ChromeCustomTabs/blob/main/.github/README.md",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/onedevapp/Unity_ChromeCustomTabs/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/onedevapp/Unity_ChromeCustomTabs/blob/main/LICENSE",
   "author": {
     "name": "OneDevApp",

@@ -71,7 +71,14 @@ Register these activities, receivers and queires in the manifest only when ur ch
 		</intent>
 	</queries>
 ```
+<br>
 
+### Note
+If need to use latest version of Custom Tabs in an app, kindly change the required version at below location:
+Plugins/ChromeCustomTab/Editor/ChromeCustomTabDependencies.xml
+
+Available versions can be found [here](https://mvnrepository.com/artifact/androidx.browser/browser).
+<br>
 
 ## :open_hands: Contributions
 Any contributions are welcome!
