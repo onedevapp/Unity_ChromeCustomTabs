@@ -1,0 +1,6 @@
+﻿<dependencies>
+  <androidPackages>
+    <androidPackage spec="androidx.browser:browser:1.5.0"/>
+    <androidPackage spec="androidx.fragment:fragment:1.5.7"/>
+  </androidPackages>
+</dependencies>
