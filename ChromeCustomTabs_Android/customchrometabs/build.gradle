@@ -8,12 +8,10 @@ ext {
 }
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion "33.0.1"
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
 
         versionCode 3
         versionName "1.2"
@@ -59,6 +57,6 @@ android {
 
 dependencies {
 
-    compileOnly 'androidx.fragment:fragment:1.5.7'
-    compileOnly 'androidx.browser:browser:1.5.0'
+    compileOnly 'androidx.fragment:fragment:1.8.1'
+    compileOnly 'androidx.browser:browser:1.8.0'
 }
