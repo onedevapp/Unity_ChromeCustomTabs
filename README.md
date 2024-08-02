@@ -3,15 +3,10 @@ Unity plugin integration with Chrome Custom Tabs for Android
 <br><br>
 
 ### INSTALLATION
-There are 4 ways to install this plugin:
 
-1. import Unity_ChromeCustomTab.unitypackage via Assets-Import Package
-2. clone/download this repository and move the Plugins folder to your Unity project's Assets folder
-3. via Package Manager (**Add package from git url**):
-
-    - `https://github.com/onedevapp/Unity_ChromeCustomTabs.git`
-4. via Package Manager (add the following line to **Packages/manifest.json**):
-    - `"com.onedevapp.chromecustomtab": "https://github.com/onedevapp/Unity_ChromeCustomTabs.git",`
+* Open Package Manager in Unity
+* Press "+" and "Add package from git URL..."
+* Enter this repository and version as  `https://github.com/onedevapp/Unity_ChromeCustomTabs.git#TAG` (see latest version [here](https://github.com/onedevapp/Unity_ChromeCustomTabs/tags))
 
 <br>
 
